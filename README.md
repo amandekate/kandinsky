@@ -15,7 +15,7 @@ You can use this as a quick jumping-off point to build a web app using Replicate
 Install dependencies:
 
 ```console
-npm install
+npm install 
 ```
 
 Add your [Replicate API token](https://replicate.com/account#token) to `.env.local`:
@@ -32,6 +32,4 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-For detailed instructions on how to create and use this template, see [replicate.com/docs/get-started/nextjs](https://replicate.com/docs/get-started/nextjs)
 
-<img src="https://user-images.githubusercontent.com/2289/208017930-a39ca4d5-2410-4049-bce0-20718480c73b.png" alt="app screenshot">

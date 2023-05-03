@@ -15,10 +15,6 @@ input {
   @apply border border-black border-opacity-10;
 }
 
-.button {
-  @apply bg-black text-white rounded-r-md  px-5 py-3;
-  @apply rounded-md;
-}
 
 .image-wrapper {
   width: 100%;

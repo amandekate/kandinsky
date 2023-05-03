@@ -102,9 +102,9 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col w-full p-5">
+    <div className="flex flex-col p-2">
       <Head>
-        <title>Replicate + Next.js</title>
+        <title>Kandinsky</title>
       </Head>
 
       <h1 className="py-6 text-center font-bold text-2xl">
@@ -201,21 +201,21 @@ export default function Home() {
           </select>
 
           <button
-            className="button"
+            className="button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             type="submit"
             disabled={!prompt && prompt.length <= 0}
           >
-            Go!
+            Generate Image
           </button>
         </form>
-        <div className="flex flex-col flex-1 p-4 h-[500px]">
+        <div className="flex flex-col flex-1">
           {error && <div>{error}</div>}
 
           {prediction && (
             <>
               {prediction.output &&
                 prediction.output.map((item, i) => (
-                  <div className="image-wrapper p-2" key={i}>
+                  <div className=" p-1 flex flex-wrap " key={i}>
                     <img
                       src={item}
                       alt="output"
