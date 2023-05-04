@@ -6,7 +6,6 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const lensTypes = ["50 mm", "35 mm", "105 mm"];
 const cameraAngles = ["wide angle", "close up"];
-// const aspectRatios = ["1:1", "4:3", "16:9", "21:9"];
 
 export default function Home() {
   const [formData, setFormData] = useState({
@@ -24,10 +23,7 @@ export default function Home() {
     settings: "",
   });
 
-  // const [prediction, setPrediction] = useState(null);
-  // const [error, setError] = useState(null);
-  // const [category, setCategory] = useState(null);
-  // const [aspectRatio, setAspectRatio] = useState("");
+ 
   const {
     category,
     aspectRatio,
